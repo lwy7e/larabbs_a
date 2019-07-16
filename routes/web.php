@@ -1,5 +1,4 @@
 <?php
-
     Route::get('/', 'PagesController@root')->name('root');
 
 // 用户身份验证相关的路由
