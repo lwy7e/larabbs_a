@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a650e9b-8548-4c9f-a0d7-35173579da0f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,17 +19,6 @@
     <execution>
       <executable />
     </execution>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>LoginController</find>
-      <find>/home</find>
-      <find>App\User</find>
-      <find>MAIL_DRIVER</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>App\Models\User</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -181,8 +172,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.watch" />
         <item itemvalue="npm.watch-poll" />
       </list>
     </recent_temporary>
@@ -226,18 +228,49 @@
       <workItem from="1564129646598" duration="1213000" />
       <workItem from="1564191213892" duration="231000" />
       <workItem from="1564194652669" duration="611000" />
-      <workItem from="1564363103089" duration="4881000" />
+      <workItem from="1564363103089" duration="6526000" />
+      <workItem from="1564449942874" duration="1224000" />
+      <workItem from="1564536370888" duration="1219000" />
+      <workItem from="1564622481329" duration="1198000" />
+      <workItem from="1564627037369" duration="1211000" />
+      <workItem from="1564708910310" duration="1202000" />
+      <workItem from="1564800624655" duration="1175000" />
+      <workItem from="1564967912646" duration="1198000" />
+      <workItem from="1564993450243" duration="604000" />
+      <workItem from="1565054398206" duration="1800000" />
+      <workItem from="1565140865460" duration="3159000" />
+      <workItem from="1565227218499" duration="1202000" />
+      <workItem from="1565314091110" duration="102000" />
+      <workItem from="1565314253989" duration="1202000" />
+      <workItem from="1565401396005" duration="1236000" />
+      <workItem from="1565573182971" duration="1207000" />
+      <workItem from="1565659588829" duration="1797000" />
+      <workItem from="1565745971742" duration="1207000" />
+      <workItem from="1565832359666" duration="1989000" />
+      <workItem from="1565918881933" duration="734000" />
+      <workItem from="1565919642039" duration="599000" />
+      <workItem from="1566006175236" duration="599000" />
+      <workItem from="1566177980078" duration="620000" />
+      <workItem from="1566264394357" duration="94000" />
+      <workItem from="1566264518709" duration="1198000" />
+      <workItem from="1566350540584" duration="1198000" />
+      <workItem from="1566437323502" duration="1483000" />
+      <workItem from="1566523862562" duration="3616000" />
+      <workItem from="1566610247994" duration="1203000" />
+      <workItem from="1566612019644" duration="699000" />
+      <workItem from="1566873086330" duration="1200000" />
+      <workItem from="1566955732211" duration="598000" />
+      <workItem from="1567042468238" duration="1203000" />
+      <workItem from="1567128948051" duration="1308000" />
+      <workItem from="1567139374932" duration="832000" />
+      <workItem from="1567215058296" duration="4824000" />
+      <workItem from="1567239881007" duration="610000" />
+      <workItem from="1567388149416" duration="147000" />
+      <workItem from="1567388323404" duration="1220000" />
+      <workItem from="1567474025043" duration="1481000" />
+      <workItem from="1567560545740" duration="7765000" />
     </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
