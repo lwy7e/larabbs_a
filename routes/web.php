@@ -27,3 +27,6 @@
     Route::resource('topics', 'TopicsController', ['only' => ['index', 'show', 'create', 'store', 'update', 'edit', 'destroy']]);
 
     Route::resource('categories', 'CategoriesController', ['only' => ['show']]);
+
+    //上传图片
+    Route::post('upload_image','TopicsController@uploadImage')->name('topics.upload_image');
