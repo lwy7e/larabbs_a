@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Providers;
-
+use App\Models\Topic;
+use App\Observers\TopicObserver;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -24,5 +25,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+        Topic::observe(TopicObserver::class);
     }
 }

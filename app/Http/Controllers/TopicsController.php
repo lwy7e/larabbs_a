@@ -34,14 +34,14 @@ class TopicsController extends Controller
         return view('topics.create_and_edit', compact('topic', 'categories'));
     }
 
-	public function store(TopicRequest $request,Topic $topic)
-	{
-		$topic->fill($request->all());
-		$topic->user_id = Auth::id();
-		$topic->save();
+    public function store(TopicRequest $request, Topic $topic)
+    {
+        $topic->fill($request->all());
+        $topic->user_id = Auth::id();
+        $topic->save();
 
-		return redirect()->route('topics.show', $topic->id)->with('message', '帖子创建成功! ');
-	}
+        return redirect()->route('topics.show', $topic->id)->with('success', '帖子创建成功！');
+    }
 
 	public function edit(Topic $topic)
 	{
