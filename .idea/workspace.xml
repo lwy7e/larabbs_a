@@ -4,7 +4,6 @@
     <list default="true" id="3a650e9b-8548-4c9f-a0d7-35173579da0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Observers/TopicObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Observers/TopicObserver.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -298,7 +297,7 @@
       <workItem from="1567733761485" duration="8568000" />
       <workItem from="1567820006940" duration="6712000" />
       <workItem from="1569547645564" duration="18535000" />
-      <workItem from="1569633595039" duration="1750000" />
+      <workItem from="1569633595039" duration="3705000" />
     </task>
     <servers />
   </component>
