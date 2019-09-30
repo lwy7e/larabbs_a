@@ -36,4 +36,9 @@
                 dispatch(new TranslateSlug($topic));
             }
         }
+
+        public function deleted(Topic $topic)
+        {
+            \DB::table('replies')->where('topic_id', $topic->id)->delete();
+        }
     }
