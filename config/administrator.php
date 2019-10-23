@@ -43,6 +43,11 @@
                 'permissions',
             ],
         ],
+        '内容管理'=>[
+            'categories',
+            'topics',
+            'replies',
+        ],
 
         /*
          * 权限控制的回调函数。
