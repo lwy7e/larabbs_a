@@ -15,7 +15,7 @@
         'model_config_path' => config_path('administrator'),
 
         // 配置信息文件存放目录
-        'settings_config_path' => config_path('administrator/settings'),
+        'settings_config_path' => config_path('administrator/settings.'),
 
         /*
          * 后台菜单数组，多维数组渲染结果为多级嵌套菜单。
